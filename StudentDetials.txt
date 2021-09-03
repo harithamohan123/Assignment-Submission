@@ -1,0 +1,24 @@
+ import java.util.Scanner;
+ 
+ public class student{
+ 
+     public static void main(String[]args){
+   
+     int roll;
+    
+     float marks;
+       
+       Scanner in = new Scanner(System.in);     
+        System.out.print("Enter name of student: ");
+        String name = in.nextLine();
+        System.out.print("Enter the roll number: ");
+        roll=in.nextInt();
+        System.out.print("Enter the marks : ");
+        marks=in.nextInt();
+        
+        
+        System.out.println("Roll number Of Student : "+ roll);
+        System.out.println("Name Of Student : "+ name);
+        System.out.println("Marks Of Student :  "+ marks);
+     }
+ }
